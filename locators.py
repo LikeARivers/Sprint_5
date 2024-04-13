@@ -21,5 +21,8 @@ class SBurgersLocators:
     STUFFING_BUTTON = (By.XPATH, "//span[text() = 'Начинки']") #кнопка Начинки в конструкторе
     SAUCES_BUTTON = (By.XPATH, "//span[text() = 'Соусы']") #кнопка Соусы в конструкторе
     BUNS_BUTTON = (By.XPATH, "//span[text() = 'Булки']") #кнопка Булки в конструкторе
+    STUFFING_BUTTON_ACTIV = (By.XPATH, "//span[text() = 'Начинки']/parent::div")  #активация кнопки Начинки в конструкторе
+    SAUCES_BUTTON_ACTIV = (By.XPATH, "//span[text() = 'Соусы']/parent::div")  #активация кнопки Соусы в конструкторе
+    BUNS_BUTTON_ACTIV = (By.XPATH, "//span[text() = 'Булки']/parent::div")  #активация кнопки Булки в конструкторе
     MAKE_BURGER_TEXT = (By.XPATH, "//h1[text()='Соберите бургер']") #текст Соберите бургер на главной странице
     ENTER_TEXT = (By.XPATH, "//h2[text()='Вход']") #текст Вход на странице авторизации
